@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.egit:7.3.0.202506031305-r"/>
+		<item value="org.eclipse.emf.common:2.38.0.v20260311-1301"/>
+		<item value="org.eclipse.emf.ecore:2.43.0.v20251210-1145"/>
+		<item value="org.eclipse.epp.mpc:1.12.1.v20250508-2126"/>
+		<item value="org.eclipse.help:2.3.2200.v20250528-1830"/>
+		<item value="org.eclipse.jgit.gpg.bc:7.3.0.202506031305-r"/>
+		<item value="org.eclipse.jgit.http.apache:7.3.0.202506031305-r"/>
+		<item value="org.eclipse.jgit.ssh.apache:7.3.0.202506031305-r"/>
+		<item value="org.eclipse.jgit:7.3.0.202506031305-r"/>
+		<item value="org.eclipse.m2e.feature:2.9.0.20250514-0352"/>
+		<item value="org.eclipse.m2e.logback.feature:2.7.100.20250418-1315"/>
+		<item value="org.eclipse.mylyn.builds.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.commons.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.commons.identity.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.commons.notifications.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.commons.repositories.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.context.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.egit.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.git.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.github.feature:6.8.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.ide.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.jdt.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.jenkins.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.monitor.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.reviews.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.tasks.feature:4.7.0.v20250521-0822"/>
+		<item value="org.eclipse.mylyn.team.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.versions.feature:4.7.0.v20250326-1000"/>
+		<item value="org.eclipse.mylyn.wikitext.feature:4.7.0.v20250513-1805"/>
+		<item value="org.eclipse.oomph.p2:1.33.0.v20250411-1221"/>
+		<item value="org.eclipse.oomph.setup.core:1.34.0.v20250521-1019"/>
+		<item value="org.eclipse.oomph.setup:1.36.0.v20250521-1019"/>
+		<item value="org.eclipse.rcp:4.36.0.v20250528-1830"/>
+		<item value="org.eclipse.tm.terminal.connector.ssh.feature:12.1.0.202506041901"/>
+		<item value="org.eclipse.tm.terminal.control.feature:12.1.0.202505141520"/>
+		<item value="org.eclipse.tm.terminal.feature:12.1.0.202505062016"/>
+		<item value="org.eclipse.tm.terminal.view.feature:12.1.0.202506041901"/>
+		<item value="org.testng.eclipse:7.11.0.202503091801"/>
+	</list>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="330"/>
+			<item key="DIALOG_Y_ORIGIN" value="7"/>
+			<item key="DIALOG_WIDTH" value="890"/>
+			<item key="DIALOG_HEIGHT" value="614"/>
+			<item key="DIALOG_FONT_NAME" value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI"/>
+		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="464"/>
+		<item key="DIALOG_Y_ORIGIN" value="177"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

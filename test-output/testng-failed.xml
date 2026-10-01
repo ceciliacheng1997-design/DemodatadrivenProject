@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="testcase.Bankmanager.Bankmanageraddcustomer4">
+        <methods>
+          <include name="setup"/>
+          <include name="AddManagerTest" invocation-numbers="1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcase.Bankmanager.Bankmanageraddcustomer4 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,32 @@
+2026-09-30 22:46:06 INFO  [main] BaseTest - Corresponding information are loaded
+2026-09-30 22:46:16 INFO  [main] BaseTest - lauching chrome
+2026-09-30 22:46:22 INFO  [main] BaseTest - launching the page
+2026-09-30 22:46:22 INFO  [main] BaseTest - Clicking the locatorbankmanager_css
+2026-09-30 22:46:23 INFO  [main] BaseTest - Clicking the locatorbankmanager_add_customer_css
+2026-09-30 22:46:23 INFO  [main] BaseTest - Filling the locatorbankcustomer_firstname_xpathwith valueCecilia
+2026-09-30 22:46:23 INFO  [main] BaseTest - Filling the locatorbankcustomer_lastname_xpathwith valueMing
+2026-09-30 22:46:23 INFO  [main] BaseTest - Filling the locatorbankcustomer_ps_xpathwith valuepostcode
+2026-09-30 22:46:23 INFO  [main] BaseTest - Clicking the locatorbankcustomer_button_css
+2026-09-30 22:46:24 WARN  [main] DataUtilities - Suite name, Test case name or Data runmode is not runnable
+2026-09-30 22:46:25 INFO  [main] BaseTest - lauching firefox
+2026-09-30 22:46:38 INFO  [main] BaseTest - launching the page
+2026-09-30 22:46:39 INFO  [main] BaseTest - Clicking the locatorbankmanager_css
+2026-09-30 22:46:39 INFO  [main] BaseTest - Clicking the locatorbankmanager_add_customer_css
+2026-09-30 22:46:40 INFO  [main] BaseTest - Filling the locatorbankcustomer_firstname_xpathwith valueGOGO
+2026-09-30 22:46:40 INFO  [main] BaseTest - Filling the locatorbankcustomer_lastname_xpathwith valueChan
+2026-09-30 22:46:40 INFO  [main] BaseTest - Filling the locatorbankcustomer_ps_xpathwith valuepostcode
+2026-09-30 22:46:40 INFO  [main] BaseTest - Clicking the locatorbankcustomer_button_css
+2026-09-30 22:46:44 INFO  [main] BaseTest - lauching chrome
+2026-09-30 22:46:47 INFO  [main] BaseTest - launching the page
+2026-09-30 22:46:48 INFO  [main] BaseTest - Clicking the locatorbankmanager_css
+2026-09-30 22:46:48 INFO  [main] BaseTest - Clicking the locatorbankmanager_click_openaccount_css
+2026-09-30 22:46:48 INFO  [main] BaseTest - Selecting the locator bankcustomer_openaccount_css with value Harry Potter
+2026-09-30 22:46:48 INFO  [main] BaseTest - Selecting the locator bankcustomer_currency_css with value Dollar
+2026-09-30 22:46:50 INFO  [main] BaseTest - Clicking the locatorbankcustomer_submit_xpath
+2026-09-30 22:46:52 INFO  [main] BaseTest - lauching firefox
+2026-09-30 22:47:01 INFO  [main] BaseTest - launching the page
+2026-09-30 22:47:01 INFO  [main] BaseTest - Clicking the locatorbankmanager_css
+2026-09-30 22:47:02 INFO  [main] BaseTest - Clicking the locatorbankmanager_click_openaccount_css
+2026-09-30 22:47:02 INFO  [main] BaseTest - Selecting the locator bankcustomer_openaccount_css with value Ron Weasly
+2026-09-30 22:47:02 INFO  [main] BaseTest - Selecting the locator bankcustomer_currency_css with value Pound
+2026-09-30 22:47:05 INFO  [main] BaseTest - Clicking the locatorbankcustomer_submit_xpath

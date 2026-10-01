@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-30T14:46:06Z" name="Suite" finished-at="2026-09-30T14:47:06Z" duration-ms="60329">
+    <groups>
+    </groups>
+    <test started-at="2026-09-30T14:46:06Z" name="Test2" finished-at="2026-09-30T14:46:42Z" duration-ms="36004">
+      <class name="testcase.Bankmanager.Bankmanageraddcustomer4">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:07Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:46:23Z" duration-ms="16519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=2.345543534E9, lastname=Ming, runmode=Y, firstname=Cecilia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddManagerTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:23Z" name="quit" finished-at="2026-09-30T14:46:24Z" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:24Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:46:24Z" duration-ms="93" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=234242.0, lastname=Sze, runmode=N, firstname=Many}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Suite name, Test case name or Data runmode is not runnable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Suite name, Test case name or Data runmode is not runnable
+at utilities.DataUtilities.ischeckRunnable(DataUtilities.java:81)
+at testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest(Bankmanageraddcustomer4.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddManagerTest -->
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:24Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:46:40Z" duration-ms="16197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=545353.0, lastname=Chan, runmode=Y, firstname=GOGO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddManagerTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:24Z" name="quit" finished-at="2026-09-30T14:46:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@76884e4b]" started-at="2026-09-30T14:46:40Z" name="quit" finished-at="2026-09-30T14:46:42Z" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcase.Bankmanager.Bankmanageraddcustomer4 -->
+    </test> <!-- Test2 -->
+    <test started-at="2026-09-30T14:46:42Z" name="Test3" finished-at="2026-09-30T14:47:06Z" duration-ms="23496">
+      <class name="testcase.Bankmanager.AddCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Bankmanager.AddCustomer@46268f08]" started-at="2026-09-30T14:46:06Z" name="setup" finished-at="2026-09-30T14:46:06Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@46268f08]" started-at="2026-09-30T14:46:43Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:46:50Z" duration-ms="7784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, browser=chrome, runmode=Y, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankManagerTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@46268f08]" started-at="2026-09-30T14:46:50Z" name="quit" finished-at="2026-09-30T14:46:51Z" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@46268f08]" started-at="2026-09-30T14:46:51Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:47:05Z" duration-ms="13584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Pound, browser=firefox, runmode=Y, customer=Ron Weasly}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankManagerTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@46268f08]" started-at="2026-09-30T14:47:05Z" name="quit" finished-at="2026-09-30T14:47:06Z" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcase.Bankmanager.AddCustomer -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
