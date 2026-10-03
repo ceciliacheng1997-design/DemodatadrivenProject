@@ -10,6 +10,7 @@ public class Constant {
 	public static String SUITES_BANK_FILE="./src/test/java/excelfile/Excelmanager.xlsx";
 	
 	public static String SUITES_CUSTOMER_SHEETNAME="Testdata";
+	public static String SUITES_CUSTOMER_SHEETNAME_TESTCASE="TestCase";
 	public static String SUITES_CUSTOMER_FILE="./src/test/java/excelfile/Customeraccount.xlsx";
 
 }

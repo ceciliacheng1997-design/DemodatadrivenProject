@@ -16,7 +16,7 @@ public class AddCustomer extends BaseTest {
 	@Test(dataProviderClass=DataProviderutilities.class,dataProvider="SuitesBank")
 	public void BankManagerTest(Hashtable<String, String> data) throws InterruptedException {
 		ExcelReader excel=new ExcelReader(Constant.SUITES_BANK_FILE);
-		System.out.println(DataUtilities.ischeckRunnable(excel, "BankManagerSuites", Constant.SUITES_BANK_SHEETNAME_TESTCASE, "AddManagerTest", data.get("runmode")));
+		DataUtilities.ischeckRunnable(excel, "BankManagerSuites", Constant.SUITES_BANK_SHEETNAME_TESTCASE, "AddManagerTest", data.get("runmode"));
 		Browser browser=getBrowser(data.get("browser"));
 		navigate(browser,"https://www.way2automation.com/angularjs-protractor/banking/#/login");
 		clickkey("bankmanager_css");
