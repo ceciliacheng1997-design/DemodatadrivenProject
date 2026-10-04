@@ -1,41 +1,41 @@
-2026-10-03 18:01:55 INFO  [main] BaseTest - Corresponding information are loaded
-2026-10-03 18:01:56 INFO  [main] BaseTest - lauching chrome
-2026-10-03 18:01:59 INFO  [main] BaseTest - launching the page
-2026-10-03 18:01:59 INFO  [main] BaseTest - Clicking the locatorcustomer_css
-2026-10-03 18:02:00 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Hermoine Granger
-2026-10-03 18:02:00 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
-2026-10-03 18:02:00 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
-2026-10-03 18:02:00 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value4000.0
-2026-10-03 18:02:01 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
-2026-10-03 18:02:02 INFO  [main] BaseTest - lauching chrome
-2026-10-03 18:02:05 INFO  [main] BaseTest - launching the page
-2026-10-03 18:02:05 INFO  [main] BaseTest - Clicking the locatorcustomer_css
-2026-10-03 18:02:06 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Harry Potter
-2026-10-03 18:02:06 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
-2026-10-03 18:02:06 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
-2026-10-03 18:02:06 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value9000.0
-2026-10-03 18:02:07 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
-2026-10-03 18:02:14 INFO  [main] BaseTest - lauching firefox
-2026-10-03 18:02:20 INFO  [main] BaseTest - launching the page
-2026-10-03 18:02:20 INFO  [main] BaseTest - Clicking the locatorcustomer_css
-2026-10-03 18:02:21 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Neville Longbottom
-2026-10-03 18:02:21 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
-2026-10-03 18:02:21 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
-2026-10-03 18:02:21 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value300.0
-2026-10-03 18:02:22 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
-2026-10-03 18:02:24 INFO  [main] BaseTest - lauching chrome
-2026-10-03 18:02:27 INFO  [main] BaseTest - launching the page
-2026-10-03 18:02:27 INFO  [main] BaseTest - Clicking the locatorcustomer_css
-2026-10-03 18:02:28 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Neville Longbottom
-2026-10-03 18:02:28 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
-2026-10-03 18:02:28 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_css
-2026-10-03 18:02:28 INFO  [main] BaseTest - Filling the locatorcustomer_withdraw_amount_xpathwith value300.0
-2026-10-03 18:02:29 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_button_css
-2026-10-03 18:02:30 INFO  [main] BaseTest - lauching chrome
-2026-10-03 18:02:33 INFO  [main] BaseTest - launching the page
-2026-10-03 18:02:34 INFO  [main] BaseTest - Clicking the locatorcustomer_css
-2026-10-03 18:02:34 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Harry Potter
-2026-10-03 18:02:34 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
-2026-10-03 18:02:34 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_css
-2026-10-03 18:02:35 INFO  [main] BaseTest - Filling the locatorcustomer_withdraw_amount_xpathwith value200.0
-2026-10-03 18:02:35 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_button_css
+2026-10-03 18:25:13 INFO  [main] BaseTest - Corresponding information are loaded
+2026-10-03 18:25:16 INFO  [main] BaseTest - lauching chrome
+2026-10-03 18:25:19 INFO  [main] BaseTest - launching the page
+2026-10-03 18:25:20 INFO  [main] BaseTest - Clicking the locatorcustomer_css
+2026-10-03 18:25:20 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Hermoine Granger
+2026-10-03 18:25:20 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
+2026-10-03 18:25:21 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
+2026-10-03 18:25:21 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value4000.0
+2026-10-03 18:25:21 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
+2026-10-03 18:25:23 INFO  [main] BaseTest - lauching chrome
+2026-10-03 18:25:27 INFO  [main] BaseTest - launching the page
+2026-10-03 18:25:28 INFO  [main] BaseTest - Clicking the locatorcustomer_css
+2026-10-03 18:25:28 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Harry Potter
+2026-10-03 18:25:28 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
+2026-10-03 18:25:29 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
+2026-10-03 18:25:29 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value9000.0
+2026-10-03 18:25:29 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
+2026-10-03 18:25:31 INFO  [main] BaseTest - lauching firefox
+2026-10-03 18:25:52 INFO  [main] BaseTest - launching the page
+2026-10-03 18:26:04 INFO  [main] BaseTest - Clicking the locatorcustomer_css
+2026-10-03 18:26:06 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Neville Longbottom
+2026-10-03 18:26:07 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
+2026-10-03 18:26:09 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_css
+2026-10-03 18:26:09 INFO  [main] BaseTest - Filling the locatorcustomer_deposit_amount_xpathwith value300.0
+2026-10-03 18:26:10 INFO  [main] BaseTest - Clicking the locatorcustomer_deposit_button_css
+2026-10-03 18:26:12 INFO  [main] BaseTest - lauching chrome
+2026-10-03 18:26:16 INFO  [main] BaseTest - launching the page
+2026-10-03 18:26:16 INFO  [main] BaseTest - Clicking the locatorcustomer_css
+2026-10-03 18:26:17 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Neville Longbottom
+2026-10-03 18:26:17 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
+2026-10-03 18:26:17 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_css
+2026-10-03 18:26:18 INFO  [main] BaseTest - Filling the locatorcustomer_withdraw_amount_xpathwith value300.0
+2026-10-03 18:26:18 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_button_css
+2026-10-03 18:26:19 INFO  [main] BaseTest - lauching chrome
+2026-10-03 18:26:22 INFO  [main] BaseTest - launching the page
+2026-10-03 18:26:24 INFO  [main] BaseTest - Clicking the locatorcustomer_css
+2026-10-03 18:26:24 INFO  [main] BaseTest - Selecting the locator customer_dropdown_css with value Harry Potter
+2026-10-03 18:26:24 INFO  [main] BaseTest - Clicking the locatorcustomer_login_css
+2026-10-03 18:26:25 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_css
+2026-10-03 18:26:25 INFO  [main] BaseTest - Filling the locatorcustomer_withdraw_amount_xpathwith value200.0
+2026-10-03 18:26:25 INFO  [main] BaseTest - Clicking the locatorcustomer_withdraw_button_css
