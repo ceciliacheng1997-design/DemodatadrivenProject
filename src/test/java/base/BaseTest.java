@@ -49,10 +49,6 @@ public class BaseTest {
 	
 	@BeforeSuite(alwaysRun=true)
 	public void setup() throws IOException {
-		PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
-        try (FileInputStream fis = new FileInputStream("./src/test/resources/properties/OR.properties")) {
-            OR.load(fis);
-        }
 		log=Logger.getLogger(BaseTest.class);
 		log.info("Corresponding information are loaded");
 		
@@ -94,7 +90,7 @@ public class BaseTest {
 	
 	public void clickkey(String locatorKey) {
 		try {
-			getPage().locator(OR.getProperty(locatorKey)).click();
+			getPage().locator(ExtentListeners.getOR(locatorKey)).click();
 			log.info("Clicking the locator"+locatorKey);
 			ExtentListeners.getExtent().info("Clicking the locator"+locatorKey);
 		}catch (Throwable t) {
@@ -106,7 +102,7 @@ public class BaseTest {
 	
 	public void fillin(String locatorKey,String value) {
 		try {
-			getPage().locator(OR.getProperty(locatorKey)).fill(value);
+			getPage().locator(ExtentListeners.getOR(locatorKey)).fill(value);
 			log.info("Filling the locator"+locatorKey+"with value"+value);
 			ExtentListeners.getExtent().info("Filling the locator"+locatorKey+"with value"+value);
 		}catch (Throwable t) {
@@ -118,7 +114,7 @@ public class BaseTest {
 	
 	public void selectkey(String locatorKey, String value) {
 		try {
-			getPage().selectOption(OR.getProperty(locatorKey), new SelectOption().setLabel(value));
+			getPage().selectOption(ExtentListeners.getOR(locatorKey), new SelectOption().setLabel(value));
 			log.info("Selecting the locator "+locatorKey+" with value "+value);
 			ExtentListeners.getExtent().info("Selecting the locator "+locatorKey+" with value "+value);
 		}catch (Throwable t) {
@@ -132,7 +128,7 @@ public class BaseTest {
 	
 	public boolean isElementPresent(String locatorKey) {
 		try {
-			getPage().waitForSelector(OR.getProperty(locatorKey));
+			getPage().waitForSelector(ExtentListeners.getOR(locatorKey));
 			log.info("Finding the locator"+locatorKey);
 			ExtentListeners.getExtent().info("Clicking the locator"+locatorKey);
 			return true;

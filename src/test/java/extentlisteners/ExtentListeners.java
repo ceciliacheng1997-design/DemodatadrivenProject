@@ -1,13 +1,17 @@
 package extentlisteners;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Date;
+import java.util.Properties;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
@@ -33,6 +37,33 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	public static ExtentTest test;
 
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<>();
+	
+	private static Properties OR= new Properties();
+	private static FileInputStream fis;
+	
+	public static String getOR(String key) {
+        String value = OR.getProperty(key);
+        if (value == null) {
+            throw new RuntimeException("Locator key not found in OR.properties: " + key);
+        }
+        return value;
+	}
+	
+	public void onStart(ISuite suite) {
+		PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
+        try (FileInputStream fis = new FileInputStream("./src/test/resources/properties/OR.properties")) {
+            OR.load(fis);
+        }
+		// TODO Auto-generated method stub
+ catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
 	
 	
 	
@@ -104,10 +135,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	}
 
-	public void onStart(ISuite suite) {
-		// TODO Auto-generated method stub
 
-	}
 
 	String messageBody;
 

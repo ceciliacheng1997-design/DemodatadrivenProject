@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="8" failed="1" skipped="1">
+<testng-results ignored="0" total="10" passed="9" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-03T10:26:26Z" name="Suite2Customeraccountnew3" finished-at="2026-10-03T10:26:26Z" duration-ms="0">
+  <suite started-at="2026-10-05T14:35:28Z" name="Suite2Customeraccountnew3" finished-at="2026-10-05T14:35:28Z" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Suite2Customeraccountnew3 -->
-  <suite started-at="2026-10-03T10:23:11Z" name="Suite1" finished-at="2026-10-03T10:25:12Z" duration-ms="120244">
+  <suite started-at="2026-10-05T14:34:08Z" name="Suite1" finished-at="2026-10-05T14:34:50Z" duration-ms="41986">
     <groups>
     </groups>
-    <test started-at="2026-10-03T10:23:11Z" name="Test2" finished-at="2026-10-03T10:23:59Z" duration-ms="47761">
+    <test started-at="2026-10-05T14:34:08Z" name="Test2" finished-at="2026-10-05T14:34:28Z" duration-ms="20541">
       <class name="testcase.Bankmanager.Bankmanageraddcustomer4">
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:17Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-03T10:23:34Z" duration-ms="17014" status="PASS">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:09Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-05T14:34:18Z" duration-ms="9008" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:34Z" name="quit" finished-at="2026-10-03T10:23:41Z" duration-ms="6310" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:18Z" name="quit" finished-at="2026-10-05T14:34:18Z" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:41Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-03T10:23:41Z" duration-ms="666" status="SKIP">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:18Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-05T14:34:18Z" duration-ms="81" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -72,11 +72,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:41Z" name="quit" finished-at="2026-10-03T10:23:41Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:18Z" name="quit" finished-at="2026-10-05T14:34:18Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:41Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-03T10:23:56Z" duration-ms="14794" status="PASS">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:18Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-05T14:34:27Z" duration-ms="8715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,19 +87,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-03T10:23:56Z" name="quit" finished-at="2026-10-03T10:23:59Z" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-10-05T14:34:27Z" name="quit" finished-at="2026-10-05T14:34:28Z" duration-ms="1211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testcase.Bankmanager.Bankmanageraddcustomer4 -->
     </test> <!-- Test2 -->
-    <test started-at="2026-10-03T10:24:01Z" name="Test3" finished-at="2026-10-03T10:25:12Z" duration-ms="70657">
+    <test started-at="2026-10-05T14:34:29Z" name="Test3" finished-at="2026-10-05T14:34:50Z" duration-ms="20786">
       <class name="testcase.Bankmanager.AddCustomer">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-03T10:23:11Z" name="setup" finished-at="2026-10-03T10:23:11Z" duration-ms="563" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-05T14:34:08Z" name="setup" finished-at="2026-10-05T14:34:08Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-03T10:24:01Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-10-03T10:24:10Z" duration-ms="9198" status="PASS">
+        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-05T14:34:29Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-10-05T14:34:38Z" duration-ms="9102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,11 +110,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-03T10:24:10Z" name="quit" finished-at="2026-10-03T10:24:12Z" duration-ms="1477" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-05T14:34:38Z" name="quit" finished-at="2026-10-05T14:34:39Z" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-03T10:24:12Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-10-03T10:25:04Z" duration-ms="52014" status="FAIL">
+        <test-method signature="BankManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-05T14:34:39Z" name="BankManagerTest" data-provider="SuitesBank" finished-at="2026-10-05T14:34:49Z" duration-ms="9925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,98 +122,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Error {
-  message='Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector "button[ng-click='openAccount()']"
-  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector "button[ng-click='openAccount()']"
-  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-    at ProgressController.run (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\progress.js:96:26)
-    at Frame.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\frames.js:1197:23)
-    at FrameDispatcher.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\dispatchers\frameDispatcher.js:173:30)
-    at DispatcherConnection.dispatch (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\dispatchers\dispatcher.js:397:46)
-}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Error {
-  message='Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector "button[ng-click='openAccount()']"
-  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector "button[ng-click='openAccount()']"
-  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-    at ProgressController.run (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\progress.js:96:26)
-    at Frame.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\frames.js:1197:23)
-    at FrameDispatcher.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\dispatchers\frameDispatcher.js:173:30)
-    at DispatcherConnection.dispatch (C:\Users\cecilia\AppData\Local\Temp\playwright-java-4380675521438291903\package\lib\server\dispatchers\dispatcher.js:397:46)
-}
-at org.testng.Assert.fail(Assert.java:96)
-at base.BaseTest.clickkey(BaseTest.java:102)
-at testcase.Bankmanager.AddCustomer.BankManagerTest(AddCustomer.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-03T10:25:04Z" name="quit" finished-at="2026-10-03T10:25:12Z" duration-ms="7192" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.AddCustomer@6bbe2511]" started-at="2026-10-05T14:34:49Z" name="quit" finished-at="2026-10-05T14:34:50Z" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testcase.Bankmanager.AddCustomer -->
     </test> <!-- Test3 -->
   </suite> <!-- Suite1 -->
-  <suite started-at="2026-10-03T10:25:13Z" name="Suite2" finished-at="2026-10-03T10:26:26Z" duration-ms="73267">
+  <suite started-at="2026-10-05T14:34:50Z" name="Suite2" finished-at="2026-10-05T14:35:28Z" duration-ms="37954">
     <groups>
     </groups>
-    <test started-at="2026-10-03T10:25:13Z" name="Test3" finished-at="2026-10-03T10:26:11Z" duration-ms="58009">
+    <test started-at="2026-10-05T14:34:50Z" name="Test3" finished-at="2026-10-05T14:35:14Z" duration-ms="23753">
       <class name="testcase.Customer.Customeraccountnew">
-        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:25:13Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-03T10:25:21Z" duration-ms="8062" status="PASS">
+        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:34:50Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-05T14:34:56Z" duration-ms="5629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -224,11 +148,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DespoiteTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:25:21Z" name="quit" finished-at="2026-10-03T10:25:22Z" duration-ms="829" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:34:56Z" name="quit" finished-at="2026-10-05T14:34:56Z" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:25:22Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-03T10:25:29Z" duration-ms="7048" status="PASS">
+        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:34:56Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-05T14:35:04Z" duration-ms="7950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,11 +163,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DespoiteTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:25:29Z" name="quit" finished-at="2026-10-03T10:25:30Z" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:35:04Z" name="quit" finished-at="2026-10-05T14:35:04Z" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:25:30Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-03T10:26:10Z" duration-ms="39616" status="PASS">
+        <test-method signature="DespoiteTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:35:04Z" name="DespoiteTest" data-provider="SuitesCustomer" finished-at="2026-10-05T14:35:13Z" duration-ms="8012" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,19 +178,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DespoiteTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-03T10:26:10Z" name="quit" finished-at="2026-10-03T10:26:11Z" duration-ms="1207" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customeraccountnew@55dfcc6]" started-at="2026-10-05T14:35:13Z" name="quit" finished-at="2026-10-05T14:35:14Z" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testcase.Customer.Customeraccountnew -->
     </test> <!-- Test3 -->
-    <test started-at="2026-10-03T10:26:11Z" name="Test4" finished-at="2026-10-03T10:26:26Z" duration-ms="15181">
+    <test started-at="2026-10-05T14:35:14Z" name="Test4" finished-at="2026-10-05T14:35:28Z" duration-ms="14153">
       <class name="testcase.Customer.Customerwithdraw">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-03T10:25:13Z" name="setup" finished-at="2026-10-03T10:25:13Z" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-05T14:34:50Z" name="setup" finished-at="2026-10-05T14:34:50Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="WithdrawnTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-03T10:26:11Z" name="WithdrawnTest" data-provider="SuitesCustomer" finished-at="2026-10-03T10:26:18Z" duration-ms="6938" status="PASS">
+        <test-method signature="WithdrawnTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-05T14:35:14Z" name="WithdrawnTest" data-provider="SuitesCustomer" finished-at="2026-10-05T14:35:19Z" duration-ms="5482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,11 +201,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WithdrawnTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-03T10:26:18Z" name="quit" finished-at="2026-10-03T10:26:18Z" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-05T14:35:19Z" name="quit" finished-at="2026-10-05T14:35:20Z" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="WithdrawnTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-03T10:26:18Z" name="WithdrawnTest" data-provider="SuitesCustomer" finished-at="2026-10-03T10:26:25Z" duration-ms="6768" status="PASS">
+        <test-method signature="WithdrawnTest(java.util.Hashtable)[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-05T14:35:20Z" name="WithdrawnTest" data-provider="SuitesCustomer" finished-at="2026-10-05T14:35:27Z" duration-ms="7697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,7 +216,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WithdrawnTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-03T10:26:25Z" name="quit" finished-at="2026-10-03T10:26:26Z" duration-ms="866" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Customer.Customerwithdraw@eda25e5]" started-at="2026-10-05T14:35:27Z" name="quit" finished-at="2026-10-05T14:35:28Z" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

@@ -15,15 +15,4 @@
       </class> <!-- testcase.Bankmanager.Bankmanageraddcustomer4 -->
     </classes>
   </test> <!-- Test2(failed) -->
-  <test thread-count="5" name="Test3(failed)">
-    <classes>
-      <class name="testcase.Bankmanager.AddCustomer">
-        <methods>
-          <include name="setup"/>
-          <include name="BankManagerTest" invocation-numbers="1"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- testcase.Bankmanager.AddCustomer -->
-    </classes>
-  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
