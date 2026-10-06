@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 05 22:34:08 GMT+08:00 2026</td>
+<td>Started on:</td><td>Tue Oct 06 22:27:34 GMT+08:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20541 ms)</td>
+<tr><td>Total time:</td><td>76 seconds (76903 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,91 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest()'><b>AddManagerTest</b><br>Test class: testcase.Bankmanager.Bankmanageraddcustomer4<br>Parameters: {browser=firefox, postcode=545353.0, lastname=Chan, runmode=Y, firstname=GOGO}</td>
+<td><div><pre>java.lang.AssertionError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;button[ng-click=&apos;addCust()&apos;]&quot;
+  selector resolved to visible &lt;button ng-class=&quot;btnClass1&quot; ng-click=&quot;addCust()&quot; class=…&gt;…&lt;/button&gt;
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;button[ng-click=&apos;addCust()&apos;]&quot;
+  selector resolved to visible &lt;button ng-class=&quot;btnClass1&quot; ng-click=&quot;addCust()&quot; class=…&gt;…&lt;/button&gt;
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+    at ProgressController.run (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\progress.js:96:26)
+    at Frame.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\frames.js:1197:23)
+    at FrameDispatcher.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\dispatchers\frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\dispatchers\dispatcher.js:397:46)
+}
+	at base.BaseTest.clickkey(BaseTest.java:98)
+	at testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest(Bankmanageraddcustomer4.java:24)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace985679444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace985679444'><pre>java.lang.AssertionError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;button[ng-click=&apos;addCust()&apos;]&quot;
+  selector resolved to visible &lt;button ng-class=&quot;btnClass1&quot; ng-click=&quot;addCust()&quot; class=…&gt;…&lt;/button&gt;
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;button[ng-click=&apos;addCust()&apos;]&quot;
+  selector resolved to visible &lt;button ng-class=&quot;btnClass1&quot; ng-click=&quot;addCust()&quot; class=…&gt;…&lt;/button&gt;
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+    at ProgressController.run (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\progress.js:96:26)
+    at Frame.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\frames.js:1197:23)
+    at FrameDispatcher.click (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\dispatchers\frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (C:\Users\cecilia\AppData\Local\Temp\playwright-java-467686592649004107\package\lib\server\dispatchers\dispatcher.js:397:46)
+}
+	at org.testng.Assert.fail(Assert.java:96)
+	at base.BaseTest.clickkey(BaseTest.java:98)
+	at testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest(Bankmanageraddcustomer4.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>51</td>
+<td>testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,12 +162,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest()'><b>AddManagerTest</b><br>Test class: testcase.Bankmanager.Bankmanageraddcustomer4<br>Parameters: {browser=chrome, postcode=2.345543534E9, lastname=Ming, runmode=Y, firstname=Cecilia}</td>
 <td></td>
-<td>9</td>
-<td>testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a</td></tr>
-<tr>
-<td title='testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest()'><b>AddManagerTest</b><br>Test class: testcase.Bankmanager.Bankmanageraddcustomer4<br>Parameters: {browser=firefox, postcode=545353.0, lastname=Chan, runmode=Y, firstname=GOGO}</td>
-<td></td>
-<td>8</td>
+<td>12</td>
 <td>testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -97,8 +177,8 @@ function toggleAllBoxes() {
 <td><div><pre>org.testng.SkipException: Suite name, Test case name or Data runmode is not runnable
 	at utilities.DataUtilities.ischeckRunnable(DataUtilities.java:81)
 	at testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest(Bankmanageraddcustomer4.java:20)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace628933116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace628933116'><pre>org.testng.SkipException: Suite name, Test case name or Data runmode is not runnable
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace708350323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace708350323'><pre>org.testng.SkipException: Suite name, Test case name or Data runmode is not runnable
 	at utilities.DataUtilities.ischeckRunnable(DataUtilities.java:81)
 	at testcase.Bankmanager.Bankmanageraddcustomer4.AddManagerTest(Bankmanageraddcustomer4.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)

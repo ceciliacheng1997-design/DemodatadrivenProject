@@ -9,7 +9,7 @@
       <class name="testcase.Bankmanager.Bankmanageraddcustomer4">
         <methods>
           <include name="setup"/>
-          <include name="AddManagerTest" invocation-numbers="1"/>
+          <include name="AddManagerTest" invocation-numbers="1 2"/>
           <include name="quit"/>
         </methods>
       </class> <!-- testcase.Bankmanager.Bankmanageraddcustomer4 -->

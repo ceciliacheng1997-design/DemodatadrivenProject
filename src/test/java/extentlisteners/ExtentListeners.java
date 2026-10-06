@@ -11,6 +11,7 @@ import java.util.Properties;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -26,6 +27,8 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
+import base.BaseTest;
+
 
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
@@ -40,6 +43,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	
 	private static Properties OR= new Properties();
 	private static FileInputStream fis;
+	private static Logger log;
 	
 	public static String getOR(String key) {
         String value = OR.getProperty(key);
@@ -62,6 +66,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		log=Logger.getLogger(ExtentListeners.class);
 
 	}
 	
